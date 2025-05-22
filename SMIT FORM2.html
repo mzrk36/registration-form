@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <form>
+        <label for="Country">Select Country</label><br>
+        <select name="Country">
+            <option>Select</option>
+            <option>Pakistan</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Afghanistan</option>
+            <option>India</option>
+        </select><br><br>
+
+        <label for="Course Event">Select course or event</label><br>
+        <select name="Couese Even">
+            <option>Select course or event</option>
+            <option>Graphic Designing</option>
+            <option>Web & App Development</option>
+            <option>Gen AI & Chatbot Development</option>
+        </select><br><br>
+
+        Name: <br><input type="text" placeholder="Write Your Name Here" required><br><br>
+        Email: <br><input type="email" placeholder="Write Your Email Here" required><br><br>
+        CNIC: <br><input type="text" placeholder="e.g.54001234567" required><br><br>
+        Date Of Birth: <br> <input type="date"><br><br>
+        Address: <br> <textarea name="adress" rows="4" placeholder="Your Address"></textarea><br><br>
+        <label>Do You Have A Laptop?</label><br>
+            <select name="Laptop" required><br>
+                <option aria-placeholder="Do You Have A Laptop?">Do You Have A Laptop?</option> 
+                <option>Yes</option>
+                <option>No</option>
+
+            </select><br><br>
+            <label for="City">Select City</label><br><br>
+        <select name="City">
+            <option>Select</option>
+            <option>Quetta</option>
+            <option>Karachi</option>
+            <option>Lahore</option>
+            <option>Islamabad</option>
+            <option>Peshawar</option>
+        </select><br><br>
+
+         <label for="Computer">Select your computer proficiency</label><br>
+        <select name="Computer">
+            <option>Select your computer proficiency</option>
+            <option>None</option>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+           
+        </select><br><br>
+        Father's Name: <br> <input type="text" placeholder="Write your father_name"><br><br>
+        Father's CNIC: <br> <input type="text" placeholder="Write your father_cnic"><br><br>
+        Upload Your Recent Picture <br> <input type="file"><br><br>
+        <p>Picture must be less than 2MB and clearly show your face</p><br>
+        <button>Submit Your Form Here</button>
+    </form>
+</body>
+</html>
